@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: rgb(254, 254, 151);
+}
+
+header {
+    width: 100%;
+    background: rgb(255, 215, 0, 0.7);
+    padding: 1vw;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(142, 14, 185);
+    font-size: 1.5vw;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 1vw;
+}
+
+nav a:hover {
+    color:plum;
+    padding: 0.5vw;
+    border-radius: 5px;
+}
+
+section {
+    padding: 2vw;
+    margin: 2vw;
+    align-items: center;
+    text-align: center;
+    border: 1vw;
+    border-radius: 2vw;
+    background-color: rgb(173, 111, 230);
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    margin-bottom: 1vw;
+}
+
+.container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background: rgb(255, 215, 0, 0.7);
+    color: rgb(142, 14, 185);
+    text-align: center;
+    padding: 1vw;
+    position: relative;
+}
+
+footer a {
+    color: rgb(142, 14, 185);
+    margin: 0 1vw;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input, form textarea {
+    width: 80%;
+    margin: 1vw 0;
+    padding: 0.5vw;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 0.5vw 2vw;
+    background: rgb(243, 149, 243);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: rgb(142, 14, 185);
+}
+
+iframe {
+    width: 50vw;
+    height: 315px;
+    margin: 0 auto;
+}
+
+img {
+    width: 10vw;
+    height: auto;
+}
